@@ -48,4 +48,39 @@ This project aims to develop a **Smart NFT Pricing Model** that predicts the **m
 
 ---
 
+## 🧪 Sample Prediction & Encoding Explanation
+
+We performed predictions on new NFT samples using the trained XGBoost model. Here's a breakdown of how encoding was handled and an example prediction:
+
+### 🔢 Collection Encoding (Examples)
+- 12: 'DEAD'
+- 32: 'PIXEL'
+- 50: 'poP twtzZ c0'
+- 47974: 'dreamscapes'
+- 3: 'Aesthetic'
+
+### 🎨 Category Encoding
+- 0: Art  
+- 1: Collectibles  
+- 2: Domain  
+- 3: Music  
+- 4: Photography  
+- 5: Sports  
+- 6: Trading Cards  
+- 7: Uncategorized  
+- 8: Utility  
+- 9: Virtual Worlds  
+
+### 📥 Example Input for Prediction
+```python
+{
+    'collection_encoded': 12,        # Corresponds to 'DEAD'
+    'asset.num_sales': 12,           
+    'category_encoded': 3,           # Corresponds to 'Music'
+    'sale_month': 4,                 
+    'sale_day': 10,                  
+    'sale_weekday': 3                # 0 = Monday, 6 = Sunday
+}
+
+
 
