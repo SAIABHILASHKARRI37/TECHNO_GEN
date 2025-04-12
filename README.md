@@ -82,5 +82,8 @@ We performed predictions on new NFT samples using the trained XGBoost model. Her
     'sale_weekday': 3                # 0 = Monday, 6 = Sunday
 }
 
+# Predicted Total Price (Ether): 0.7470
+
+
 
 
