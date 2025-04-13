@@ -108,7 +108,7 @@ if submit_btn:
 
             st.markdown("---")
             st.subheader("📈 Predicted NFT Price")
-            st.success(f"💰 *{prediction_ether[0]:.4f} ETH* ≈ *${prediction_usd:.2f} USD*")
+            st.success(f"💰 *{prediction_ether[0]:.4f} APT*")
         else:
             st.error("⚠ Unable to fetch live ETH price.")
     except Exception as e:
