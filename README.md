@@ -69,7 +69,10 @@ We performed predictions on new NFT samples using the trained XGBoost model. Her
 - 6: Trading Cards  
 - 7: Uncategorized  
 - 8: Utility  
-- 9: Virtual Worlds  
+- 9: Virtual Worlds
+- 
+![Screenshot](https://raw.githubusercontent.com/SAIABHILASHKARRI37/TECHNO_GEN/main/Screenshot%202025-04-13%20063932.png)
+
 
 ### 📥 Example Input for Prediction
 ```python
@@ -83,7 +86,7 @@ We performed predictions on new NFT samples using the trained XGBoost model. Her
 }
 
 # Predicted Total Price (Ether): 0.7470
-![Screenshot 2025-01-24 090222](https://raw.githubusercontent.com/SAIABHILASHKARRI37/TECHNO_GEN/main/Screenshot%202025-04-13%20063932.png)
+
 
 
 
