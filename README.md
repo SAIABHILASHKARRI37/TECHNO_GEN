@@ -83,8 +83,9 @@ We performed predictions on new NFT samples using the trained XGBoost model. Her
 }
 
 # Predicted Total Price (Ether): 0.7470
+![Screenshot 2025-01-24 090222](https://raw.githubusercontent.com/SAIABHILASHKARRI37/TECHNO_GEN/main/Screenshot%202025-04-13%20063932.png)
 
-![Screenshot](https://raw.githubusercontent.com/SAIABHILASHKARRI37/TECHNO_GEN/main/Screenshot%202025-04-13%20063932.png)
+
 
 
 
